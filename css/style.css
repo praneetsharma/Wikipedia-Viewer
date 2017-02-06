@@ -22,3 +22,17 @@ header h1 {
   height: 45px;
   font-weight: bold;
 }
+
+.search-results {
+  margin-top: 25px;
+}
+
+.res-box {
+  background-color: white;
+  margin-top: 15px;
+}
+
+.res-box a:hover {
+  text-decoration: none;
+  color: black;
+}
