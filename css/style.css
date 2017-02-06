@@ -30,9 +30,29 @@ header h1 {
 .res-box {
   background-color: white;
   margin-top: 15px;
+  border-radius: 5px;
+}
+
+.res-box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .res-box a:hover {
   text-decoration: none;
   color: black;
+}
+
+.clear-search, .search-icon {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-icon:hover {
+  background-color: green;
+  color: white;
+}
+
+.clear-search:hover {
+  background-color: white;
+  color: red;
 }
